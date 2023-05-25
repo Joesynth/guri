@@ -1,9 +1,11 @@
 
-
+/* text-decoration tira os sublinhados de link */
 * {
 	margin: 0;
 	padding: 0;
 	border: 0;
+	font-family: sans-serif;
+	text-decoration: none;
 }
 
 
@@ -43,6 +45,7 @@ flex-shrink: 0;
 background-color: lightblue;
 border-radius: 66% 66% 0em 0em;
 text-align: center;
+padding: 0.5em 0em 0.5em 0em;
 }
 /* Novo CSS FIM... da estrutura citada acima. */
 
@@ -72,15 +75,16 @@ footer {
 /* Palavra em português */
 #p7 {
 	position: absolute;
-	top: 1em;
-	left: 20%;
+	top: 2em;
+	left: 22%;
 	color: red;
 }
 
 /* Palavra em inglês */
 #p6 {
 	color: red;
-	font-size: 1.2em;
+	font-size: 1.5em;
+	font-weight: bold;
 }
 
 /* Emoji */
@@ -88,36 +92,35 @@ footer {
 	font-size: 2.5em;
 }
 
+/* Botão Settings no topo esquerdo */
 #set {
 	position: absolute;
 	top: 0.2em;
 	left: 0.2em;
-	//font-family: sans-serif;
 }
 
 #sound {
 	position: absolute;
 	top: 0.2em;
 	left: 80%;
-	//font-family: sans-serif;
 }
 
+/* Título ao lao do menu esquerdo, porém referente aos botões principais da direita */
 .display3 {
 	position: absolute;
-	top: 85%;
+	top: 48%;
 	left: 18%;
-	//font-family: sans-serif;
 	text-transform: uppercase;
-	font-size: 1.2em;
+	font-size: .8em;
 	color: gray;
 	font-weight: bold;
 }
 
+/* Título ao lado do menu esquerdo */
 .tit {
 	position: absolute;
-	top: 47%;
+	top: 45%;
 	left: 18%;
-	//font-family: sans-serif;
 	text-transform: uppercase;
 	font-size: 0.75em;
 	color: gray;
@@ -162,8 +165,8 @@ text-align: center;
 
 .bt2:hover {
   filter: grayscale(0);
-  height: 4em;
-  width: 4em;
+  height: 3.2em;
+  width: 3.2em;
   font-size: 1.5em;
 }
 
@@ -177,7 +180,7 @@ img {
 
 #newDIV2 {
   background-color: lightyellow;
-  margin-top: 1em;
+  margin-top: 1.5em;
   border-radius: 6em 3em 0em 0em;
   height: 40%;
   //display: flex;

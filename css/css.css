@@ -78,6 +78,7 @@ footer {
 	top: 2em;
 	left: 22%;
 	color: red;
+	font-size: 1.2em;
 }
 
 /* Palavra em inglês */
@@ -95,8 +96,8 @@ footer {
 /* Botão Settings no topo esquerdo */
 #set {
 	position: absolute;
-	top: 0.2em;
-	left: 0.2em;
+	top: 0.3em;
+	left: 0.3em;
 }
 
 #sound {
@@ -105,18 +106,18 @@ footer {
 	left: 80%;
 }
 
-/* Título ao lao do menu esquerdo, porém referente aos botões principais da direita */
+/* Título ao lao do menu esquerdo, e referente aos botões principais da direita */
 .display3 {
 	position: absolute;
 	top: 48%;
 	left: 18%;
 	text-transform: uppercase;
-	font-size: .8em;
+	font-size: 0.7em;
 	color: gray;
 	font-weight: bold;
 }
 
-/* Título ao lado do menu esquerdo */
+/* Título ao lado do menu esquerdo, e referente a este mesmo menu esquerdo */
 .tit {
 	position: absolute;
 	top: 45%;
@@ -136,15 +137,23 @@ footer {
   font-size: 1em;
 }
 
+
 .bt1 {
   background-color: lightblue;
   height: 3em;
   width: 3em;
   cursor: pointer;
-  filter: grayscale(0.8);
+  filter: grayscale(1);
   font-size: 1em;
 text-align: center;
-}	
+}
+
+/*
+.bt1 span {
+  filter: invert(1);
+  filter: grayscale(1) invert(1);
+}
+*/
 
 .bt2 {
   background-color: lightgreen;
